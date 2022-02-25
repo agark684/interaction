@@ -11,6 +11,11 @@ body {
 h1 {
   font-family: arial, helvetica, sans-serif;
   font-size: 3em;
+  color:pink;
+}
+
+.intro {
+  color: black;
 }
 
 p, a {

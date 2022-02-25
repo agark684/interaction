@@ -1,0 +1,20 @@
+body{
+  padding: 50px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+.outer{
+  width: 400px;
+  height: 800px;
+  background: lightyellow;
+  margin: 0 auto;
+}
+
+#circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  position: absolute;
+
+}

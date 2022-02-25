@@ -1,0 +1,19 @@
+body{
+  margin: 0px;
+  padding: 50px;
+  background-color: black;
+}
+
+.outer{
+  width: 600px;
+  height:600px;
+  margin: 0 auto;
+  background-color:magenta;
+}
+
+.row{
+  width: 600px;
+  height: 100px;
+  margin-bottom: 50px;
+  background-color: white;
+}

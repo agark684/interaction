@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: darkblue;
+}
+
+.outer {
+  width: 600px;
+  height: 600px;
+  background-color: darkorange;
+  margin: 0 auto;
+}
+
+.line1 {
+ width: 200px;
+ height: 500px;
+ position: relative;
+ background-color: white;
+}
+
+.line2 {
+ width: 200px;
+ height: 500px;
+ background-color: darkblue;
+ margin: 0px auto;
+ position: relative;
+ bottom: 450px;
+}
+
+.line3 {
+ width: 200px;
+ height: 500px;
+ position: relative;
+ left: 200px;
+ margin: 0 auto;
+ bottom:900px;
+ background-color: white;
+}
