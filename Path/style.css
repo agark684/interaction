@@ -45,13 +45,23 @@ margin-top: 0px;
   background-color: lavender;
   border: 5px lavender solid;
   margin-top: 0px;
+  justify-content: space-between;
 
 }
 
 .column {
   -ms-flex: 50%; /* IE 10 */
   flex: 50%;
-  padding: 4px;
+  padding: 0.5px;
+  justify-content: space-between;
+}
+
+.row img {
+  max-width: 33%;
+}
+
+.column img {
+  max-width: 33%;
 }
 
 .p1 {
