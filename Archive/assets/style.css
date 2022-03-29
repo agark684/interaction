@@ -1,0 +1,158 @@
+/* These styles are just to make it easier to see the blocks, initially. */
+body {
+  padding: 40px;
+	padding-top: 5px;
+  background-color: white;
+}
+
+.H1 {
+  font: verdana;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  color: black;
+}
+
+a {
+  color: royalblue;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+
+.row {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: flex;
+  flex-wrap: wrap;
+  /* IE 10 */
+  flex-wrap: wrap;
+  padding: 5px 5px;
+  background-color: white;
+  /* border: 5px indianred solid;*/
+  font: helvetica;
+}
+
+.row2 {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE 10 */
+  flex-wrap: wrap;
+  padding: 4px 4px;
+  background-color: white;
+  /* border: 5px mediumpurple solid;*/
+  font-family: monospace;
+  font: helvetica;
+}
+
+.row3 {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE 10 */
+  flex-wrap: wrap;
+  padding: 4px 4px;
+  background-color: white;
+  /* border: 5px orange solid;*/
+  font-family: monospace;
+  font: helvetica;
+}
+
+.row4 {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE 10 */
+  flex-wrap: wrap;
+  padding: 4px 4px;
+  background-color: white;
+  /* border: 5px steelblue solid;*/
+  font-family: monospace;
+  font: helvetica;
+}
+
+.h4 {
+  font-family: monospace;
+  font: Arial;
+  font-size: 24px;
+  padding: 0px;
+  color: red;
+}
+
+.p1 {
+  font-family: sans-serif;
+  font: verdana;
+  font-size: 20px;
+	padding-left: 0px;
+  padding-bottom: 30px;
+	padding-top: 15px;
+  color: black;
+	line-height: 28px;
+}
+
+#channel-description {
+	display:none;
+}
+
+#channel-title {
+	display:none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.row:hover .overlay {
+  opacity: 1;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.row2:hover .overlay1 {
+  opacity: 1;
+}
+
+/*.overlay2 {
+  position: absolute;
+	background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 870px;
+  right: 0;
+  height: 40%;
+  width: 40%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.row3:hover .overlay2 {
+  opacity: 1;
+}*/
+
+/* Clear them out once you’ve got your channel plugged in! */
